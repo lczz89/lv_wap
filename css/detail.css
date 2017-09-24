@@ -1,0 +1,157 @@
+.detail_content {
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  background: #F8F8F8;
+  margin-bottom: 60px;
+}
+.picnum {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 3px 10px;
+  border-radius: 20px;
+  width: 30px;
+  height: 13px;
+  line-height: 13px;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  bottom: 15px;
+  right: 0;
+  font-size: 12px;
+}
+.content_width {
+  width: 100%;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+.detail_title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+}
+.detail_title .mian_title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.detail_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.detail_price .status {
+  color: #f75934;
+}
+.price {
+  color: #f75934;
+  font-weight: 600;
+  font-size: 18px;
+}
+.offer {
+  box-sizing: border-box;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.offer img {
+  width: 35px;
+}
+.bgfbox {
+  background: #fff;
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.bgfbox ul li {
+  line-height: 30px;
+  box-sizing: content-box;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.bgfbox ul li img {
+  width: 15px;
+  padding-right: 5px;
+}
+.bgfbox ul li:last-child {
+  border-bottom: none;
+}
+.sold {
+  margin-top: 10px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.sold .jt img {
+  width: 8px;
+}
+.sold .sold_img {
+  margin-top: 8px;
+}
+.sold .sold_img img {
+  border-radius: 100%;
+  width: 40px;
+  display: inline-block;
+  margin: 0 3px;
+}
+.sold .sold_img img:first-child {
+  margin: 0;
+}
+.detail_btn {
+  background: #8bc53f;
+  padding: 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #fff;
+}
+.detail_hotel ul {
+  padding: 10px 0;
+  box-sizing: border-box;
+  line-height: 20px;
+}
+.detail_hotel ul .font_12 {
+  color: #999;
+}
+.detail_hotel ul .green {
+  font-size: 12px;
+}
+.detail_hotel ul li {
+  padding: 5px 0;
+}
+.detail_hotel ul:last-child {
+  border-bottom: none;
+}
+.detail_foot {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+.detail_foot img {
+  width: 25px;
+}
+.detail_foot li {
+  text-align: center;
+  width: 25%;
+}
+.detail_foot li .orange {
+  font-size: 12px;
+}
+.detail_foot .buy_btn {
+  background: #8bc53f;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  width: 50%;
+}
+/*# sourceMappingURL=detail.css.map */
