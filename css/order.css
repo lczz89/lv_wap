@@ -1,0 +1,154 @@
+.order_choose {
+  width: 100%;
+  height: 100%;
+}
+.order_choose .padding_15 {
+  padding: 0 15px;
+}
+.order_choose .order_title {
+  background: #8bc53f;
+  padding: 20px 15px;
+  color: #fff;
+}
+.order_choose .order_title p {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.order_choose .order_title span {
+  font-size: 14px;
+}
+.order_choose .order_h1 {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
+.order_choose .order_date {
+  margin-top: 10px;
+}
+.order_choose .order_date div {
+  width: 40%;
+  position: relative;
+  padding: 5px 10px;
+  margin-top: 10px;
+  height: 56px;
+  border: 1px solid #8bc53f;
+  border-radius: 8px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.order_choose .order_date div p {
+  line-height: 28px;
+}
+.order_choose .order_date div span {
+  display: block;
+  line-height: 28px;
+}
+.order_choose .order_date div img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35px;
+}
+.order_choose .order_choose_num {
+  margin-top: 10px;
+}
+.order_choose .order_choose_num ul {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: #fff;
+}
+.order_choose .order_choose_num li {
+  float: left;
+  font-size: 14px;
+}
+.order_choose .order_choose_num .order_name {
+  width: 33%;
+}
+.order_choose .order_choose_num .order_price {
+  width: 33%;
+}
+.order_choose .order_choose_num .order_price img {
+  width: 9px;
+}
+.order_choose .order_choose_num .order_price i {
+  color: #ff931b;
+}
+.order_choose .order_choose_num .order_edit {
+  width: 34%;
+}
+.order_choose .order_choose_num .order_edit span {
+  display: block;
+  float: left;
+  height: 23px;
+  margin-top: 11px;
+  line-height: 23px;
+  text-align: center;
+}
+.order_choose .order_choose_num .order_edit .num_val {
+  width: 40px;
+  font-size: 16px;
+}
+.order_choose .order_choose_num .order_edit .num_val input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.order_choose .order_choose_num .order_edit .minus {
+  width: 23px;
+  background-image: url("../images/jbtn_minus_orange.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.order_choose .order_choose_num .order_edit .hui_btn {
+  background-image: url(../images/jbtn_minus_gray.png);
+}
+.order_choose .order_choose_num .order_edit .plus {
+  width: 23px;
+  background-image: url("../images/jbtn_plus.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.order_choose .order_footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.order_choose .order_footer ul {
+  width: 100%;
+  height: 55px;
+}
+.order_choose .order_footer ul li {
+  float: left;
+  height: 55px;
+  line-height: 55px;
+  color: #fff;
+}
+.order_choose .order_footer ul .bottom_left {
+  width: 60%;
+  background-color: rgba(20, 20, 20, 0.9);
+  font-size: 18x;
+}
+.order_choose .order_footer ul .bottom_left span {
+  padding-left: 15px;
+}
+.order_choose .order_footer ul .bottom_left i {
+  color: #ff931b;
+}
+.order_choose .order_footer ul .bottom_right {
+  width: 40%;
+  text-align: center;
+  background: #8bc53f;
+}
+.order_choose .order_footer ul .bottom_right button {
+  color: #fff;
+  font-size: 18px;
+}
+/*# sourceMappingURL=order.css.map */

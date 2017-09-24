@@ -5,6 +5,9 @@
   background: #F8F8F8;
   margin-bottom: 60px;
 }
+.detail_content ul li {
+  color: #999;
+}
 .picnum {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
@@ -35,16 +38,19 @@
   font-weight: 600;
   margin-bottom: 5px;
   line-height: 20px;
+  font-size: 18px;
+  color: #333;
 }
 .detail_price {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 16px;
   font-size: 16px;
 }
 .detail_price .status {
   color: #f75934;
+  font-size: 14px;
 }
 .price {
   color: #f75934;

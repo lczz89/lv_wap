@@ -2,15 +2,23 @@
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+}
 body {
   background-color: #f8f8f8;
+  max-width: 640px;
+  min-width: 320px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 body {
   padding: 0;
   margin: 0;
   color: #333;
   font-size: 15px;
-  font-family: "microsoft yahei", Arial, sans-serif;
+  font-family: San Francisco, Helvetica, Arial, sans-serif;
 }
 div,
 ul,
